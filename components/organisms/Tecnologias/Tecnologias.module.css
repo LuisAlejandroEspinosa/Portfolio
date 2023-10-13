@@ -1,0 +1,15 @@
+.container-grid_tecnologias {
+  margin-top: var(--marginTopSectionComponents);
+}
+.grid-container {
+  width: 100%;
+  /* display: grid; */
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 25px;
+}
+
+.image-tecnologias {
+  width: 50px;
+  height: 50px;
+}
