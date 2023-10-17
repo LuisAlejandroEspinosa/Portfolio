@@ -2,21 +2,21 @@ import Swipe from '../public/proyectos/swipe.png'
 export const ProyectosServices =
     [
         {
-            imageProyectos: Swipe,
+            imageProyectos: "Swipe",
             descripcion: "ejemplo",
             Title: "swipe",
             url: "https://swipe-delta.vercel.app/",
             url_github: "https://github.com/LuisAlejandroEspinosa/Swipe"
         },
         {
-            imageProyectos: Swipe,
+            imageProyectos: "Swipe",
             descripcion: "ejemplo",
             Title: "swipe",
             url: "https://swipe-delta.vercel.app/",
             url_github: "https://github.com/LuisAlejandroEspinosa/Swipe"
         },
         {
-            imageProyectos: Swipe,
+            imageProyectos: "Swipe",
             descripcion: "ejemplo",
             Title: "swipe",
             url: "https://swipe-delta.vercel.app/",

@@ -16,7 +16,7 @@ export default function CardProyect({proyecto}) {
     console.log(proyecto)
     const {imageProyectos,descripcion,Title,url,url_github}=proyecto;
     return (
-        <Card sx={{ maxWidth: 345 }}>
+        <Card sx={{ maxWidth: 900,  width: 850,}}>
             <CardHeader
                 // avatar={
                 //     <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
@@ -30,7 +30,7 @@ export default function CardProyect({proyecto}) {
                 }
                 title={Title}
             />
-            <CardMedia
+            <c
                 component="img"
                 height="194"
                 image={imageProyectos}
