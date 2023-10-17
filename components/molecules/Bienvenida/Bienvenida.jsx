@@ -2,7 +2,7 @@ import { Button } from "@mui/material";
 import styles from "./Bienvenida.module.css";
 
 export const Bienvenida = () => {
-    const numeroWhatsApp = "3197702892"; // Reemplaza con tu número de WhatsApp
+    const numeroWhatsApp = "3208039083"; 
     const mensajeWhatsApp = "¡Hola! Estoy interesado en contactarte desde tu portafolio.";
 
     const enlaceWhatsApp = `https://api.whatsapp.com/send?phone=${numeroWhatsApp}&text=${encodeURIComponent(
@@ -11,10 +11,10 @@ export const Bienvenida = () => {
   return (
     <section className={styles["container-section_bienvenida"]}>
       <h1 className={styles["title-bienvenida"]}>
-        Soy <span>Daniel Mayo</span>
+        Soy <span>Luis Alejandro</span>
       </h1>
-      <h3 className={styles["title-secondary"]}>Desarrollador Full-Stack</h3>
-      <p>Bienvenido a mi sitio web</p>
+      <h3 className={styles["title-secondary"]}>Desarrollador  Front-end</h3>
+      <p>Bienvenido a mi Portafolio</p>
       <Button variant="contained" className={styles["button-bienvenida"]}>
         <a href={enlaceWhatsApp} target="_blank" rel="noopener noreferrer">
           Contactame

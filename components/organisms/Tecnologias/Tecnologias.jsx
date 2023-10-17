@@ -16,9 +16,9 @@ export const Tecnologias = () => {
                   alt={nameTecnologia}
                   className={styles["image-tecnologias"]}
                 />
-                {/* <h3 className={styles["title-tecnologias"]}>
+                <h3 className={styles["title-tecnologias"]}>
                   {nameTecnologia}
-                </h3> */}
+                </h3>
               </div>
             );
           }

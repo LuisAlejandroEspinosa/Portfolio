@@ -9,8 +9,9 @@
 .image-sobreMi {
   width: 18.75rem;
   height: 18.75rem;
-  /* border-radius: 50%; */
-  border-radius: 0.4rem;
+  border-radius: 10px 80px 10px 80px;
+  box-shadow: 9px 9px 8px rgba(71, 209, 110, 0.576);
+  padding: 0.8px;
 }
 
 .container-info_sobreMi {
@@ -28,6 +29,15 @@
     align-items: flex-start;
     gap: 4rem;
   }
+  .image-sobreMi {
+    /* width: 12.75rem;
+    height: 12.75rem; */
+    width: 4rem;
+    height: 4rem; 
+    border-radius: 10px 80px 10px 80px;
+    box-shadow: 9px 9px 8px rgba(71, 209, 110, 0.576);
+    padding: 0.8px;
+  }
 }
 
 @media (width >= 1024px) {
@@ -36,5 +46,12 @@
     align-items: flex-start;
     gap: 4rem;
     width: 60%;
+  }
+  .image-sobreMi {
+    width: 12.75rem;
+    height: 12.75rem;
+    border-radius: 10px 80px 10px 80px;
+    box-shadow: 9px 9px 8px rgba(71, 209, 110, 0.576);
+    padding: 0.8px;
   }
 }
