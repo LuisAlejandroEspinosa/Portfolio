@@ -1,6 +1,6 @@
-import { Swipe } from "../public/proyectos/swipe.png";
-import { hoteles } from "../public/proyectos/hoteles.png";
-import { hotelesNext } from "../public/proyectos/hotelesNext.png";
+import  Swipe  from "../public/proyectos/swipe.png";
+import  hoteles  from "../public/proyectos/hoteles.png";
+import  hotelesNext  from "../public/proyectos/hotelesNext.png";
 
 export const ProyectosServices =
     [

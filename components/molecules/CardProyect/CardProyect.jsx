@@ -16,39 +16,39 @@ export default function CardProyect({ proyecto }) {
     console.log(proyecto)
     const { imageProyectos, descripcion, Title, url, url_github } = proyecto;
     return (
-        <Card sx={{ maxWidth: 900, width: 850, }}>
+        <Card className='contenCard' sx={{ maxWidth: 900, width: 850, }}>
             <CardHeader
                 avatar={
-                    <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
+                    <Avatar className='logo' sx={{ bgcolor: red[500] }} aria-label="recipe">
                         L
                     </Avatar>
                 }
                 action={
-                    <IconButton aria-label="settings">
+                    <IconButton className='tres-puntos' aria-label="settings">
                         <MoreVertIcon />
                     </IconButton>
                 }
                 title={Title}
             />
 
-            <CardMedia
+            <CardMedia className='imagen'
                 component="img"
                 height="194"
                 image={imageProyectos}
                 alt="Paella dish"
             />
 
-            <CardContent>
+            <CardContent className='contenidocard'>
                 <Typography variant="body2" color="text.secondary">
                     {descripcion}
                 </Typography>
             </CardContent>
 
-            <IconButton aria-label="add to favorites">
+            <IconButton className='corazon' aria-label="add to favorites">
                 <FavoriteIcon />
             </IconButton>
 
-            <CardActions disableSpacing>
+            <CardActions className='logoCompartir' disableSpacing>
                 <IconButton aria-label="share">
                     <ShareIcon />
                 </IconButton>
