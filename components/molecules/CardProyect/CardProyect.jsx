@@ -20,7 +20,7 @@ export default function CardProyect({ proyecto }) {
             <CardHeader
                 avatar={
                     <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
-                        L.A.E
+                        L
                     </Avatar>
                 }
                 action={
@@ -30,22 +30,30 @@ export default function CardProyect({ proyecto }) {
                 }
                 title={Title}
             />
-            <CardMedia 
+
+            <CardMedia
                 component="img"
                 height="194"
                 image={imageProyectos}
                 alt="Paella dish"
             />
+
             <CardContent>
                 <Typography variant="body2" color="text.secondary">
                     {descripcion}
                 </Typography>
             </CardContent>
+
+            <IconButton aria-label="add to favorites">
+                <FavoriteIcon />
+            </IconButton>
+
             <CardActions disableSpacing>
                 <IconButton aria-label="share">
                     <ShareIcon />
                 </IconButton>
             </CardActions>
+
         </Card>
     );
 }
