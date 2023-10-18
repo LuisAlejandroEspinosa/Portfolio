@@ -6,7 +6,7 @@ import MaterialUi from "../public/tecnologias/materialUi.svg";
 import CSS from "../public/tecnologias/css.svg";
 import HTML from "../public/tecnologias/html.svg";
 import Vercel from "../public/tecnologias/vercel.png";
-import GitHub from "../public/tecnologias/github.png";
+import GitHub from "../public/tecnologias/github-svgrepo-com.svg";
 import GitBash from "../public/tecnologias/git.svg";
 import Slack from "../public/tecnologias/slack.svg";
 import Trello from "../public/tecnologias/trello.svg";

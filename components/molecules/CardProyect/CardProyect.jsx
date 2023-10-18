@@ -32,6 +32,7 @@ export default function CardProyect({ proyecto }) {
             />
 
             <CardMedia className='imagen'
+                src='/publi/proyectos/swipe.png'
                 component="img"
                 height="194"
                 image={imageProyectos}
