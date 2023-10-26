@@ -12,7 +12,7 @@ export const SobreMi = () => {
       />
 
       <div className={styles["container-info_sobreMi"]}>
-        <h2>Conoceme</h2>
+        <h2>Sobre Mi</h2>
         <p>
         Desarrollador Front-end. Tengo conocimiento en React,
           Next.js, JavaScript,Sass, Material UI CSS, HTML. 

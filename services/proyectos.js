@@ -10,6 +10,7 @@ export const ProyectosServices =
             Title: "swipe",
             url: "https://swipe-delta.vercel.app/",
             url_github: "https://github.com/LuisAlejandroEspinosa/Swipe"
+
         },
         {
             imageProyectos: hoteles,
