@@ -1,5 +1,5 @@
 .container-grid_tecnologias {
-  margin-top: var(--marginTopSectionComponents);
+  margin-top: 20px;
 }
 
 .grid-container {
@@ -7,6 +7,7 @@
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 25px;
+  margin-top: 20px;
 }
 
 .image-tecnologias {

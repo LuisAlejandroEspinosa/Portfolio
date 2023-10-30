@@ -104,7 +104,10 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
+.imagen{
+  width: 95%;
+  height: 120px;
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
