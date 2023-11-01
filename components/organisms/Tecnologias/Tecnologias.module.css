@@ -1,37 +1,38 @@
 .container-grid_tecnologias {
-  margin-top: 20px;
+  display: flex;
+    margin-bottom: 50px;
+    width: 100%;
+    justify-content: space-evenly;
+    height: auto;
+    margin-top: 10%;
+    text-align: center;
+  
+}.grid-container{
+display: grid;
+width: 80%;
+gap: 25px;
+margin-top: 10px;
+grid-template-columns: repeat(6, 1fr);
+justify-items: center;
 }
-
-.grid-container {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 25px;
-  margin-top: 20px;
-}
-
-.image-tecnologias {
-  width: 30px;
-  height: 30px;
-  display: grid;
-  grid-template-columns: 2fr 2fr;
-  gap: 10px
-}
-
-.Tecnologias {
-  width: 400px;
-  height: 450px;
-  background-color: chartreuse;
-  border-radius: 10px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+.Tecnologias{
   padding: 10px;
   text-align: center;
+  max-width: 100%;
+  max-height: 100%;
 }
 
-.Tecnologias {
-  max-width: 100%;
-  max-height: 50%;
+
+.image-tecnologias {
+  margin-top: 10%;
+  width: 25px;
+  height: 25px;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 10px;
+  margin-bottom: 30px;
 }
+
 @media(max>=768px){
   .grid-container {
     grid-template-columns: repeat(2, 1fr);
