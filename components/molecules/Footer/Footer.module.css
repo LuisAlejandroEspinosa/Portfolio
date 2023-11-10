@@ -1,0 +1,14 @@
+.containerFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #47d16e;
+    width: 100%;
+    height: 60px;
+    
+}
+.parrafo{
+align-items: center;
+font-size: 12px;
+}

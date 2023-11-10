@@ -1,14 +1,14 @@
-
 import {
   BienvenidaTemplate,
   MenuPorfolioTemplate,
   SobreMiTemplate,
   TecnologiasTemplate,
-  ProyectosTemplate
+  ProyectosTemplate,
 } from "../../components/template";
+import FooterTemplete from "../../components/template/Footer-Template/FooterTemplete";
 import styles from "./page.module.css";
 
-export default function Home() {
+const Home = ()=> {
   return (
     <>
       <MenuPorfolioTemplate />
@@ -17,7 +17,10 @@ export default function Home() {
         <SobreMiTemplate />
         <TecnologiasTemplate />
         <ProyectosTemplate/>
+        <FooterTemplete/>
       </div>
+      
     </>
   );
 }
+export default Home;

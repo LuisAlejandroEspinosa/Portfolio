@@ -1,6 +1,7 @@
 import  Swipe  from "../public/proyectos/swipe.png";
 import  hoteles  from "../public/proyectos/hoteles.png";
 import  hotelesNext  from "../public/proyectos/hotelesNext.png";
+import  MemoryGames  from "../public/proyectos/memory-game.png";
 
 export const ProyectosServices =
     [
@@ -25,5 +26,12 @@ export const ProyectosServices =
             Title: "Hoteles en Next",
             url: "https://sprint-4-clase-3-4-nexthotels.vercel.app/",
             url_github: "https://github.com/LuisAlejandroEspinosa/sprint-4-clase-3-4-nexthotels.git"
+        },
+        {
+            imageProyectos:MemoryGames ,
+            descripcion: "Este es un juego de memory creado con JavaScript,HTML Y CSS,Un juego con 8 pares de emojis que consiste en encontral el par que corresponde luego de encontrar todos los pares automaticamente se reinicia el juego.Agregaremos mas nuveles",
+            Title: "Memory Games",
+            url: "https://memory-game-seven-drab.vercel.app/",
+            url_github: "https://github.com/LuisAlejandroEspinosa/Memory-Game.git"
         },
     ];
