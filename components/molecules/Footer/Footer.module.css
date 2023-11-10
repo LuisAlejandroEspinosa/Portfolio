@@ -1,14 +1,35 @@
-.containerFooter{
+.containerFooter {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #47d16e;
+    background-size: 100%;
     width: 100%;
     height: 60px;
-    
 }
-.parrafo{
-align-items: center;
-font-size: 12px;
+
+.redesSociales {
+    flex-direction: column;
+    text-align: center;
+}
+
+@media(max-width: 320px) {
+    .parrafo {
+        font-size: 10px;
+    }
+}
+
+@media(min-width: 768px) {
+    .parrafo {
+        font-size: 14px;
+    }
+
+}
+
+@media(min-width: 1024px) {
+    .parrafo {
+        font-size: 18px;
+    }
+
 }
